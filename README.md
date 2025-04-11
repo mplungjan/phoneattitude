@@ -302,6 +302,7 @@ const motionRotationDataToEuler = (motionData: DeviceMotionMeasurement): EulerDa
      this.tick();
    }
 ```
+
 ### 2. Yaw Drift
 
 - Magnetometer-based yaw (`alpha`) can drift due to magnetic interference in the cockpit.
