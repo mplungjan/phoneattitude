@@ -275,7 +275,8 @@ const motionRotationDataToEuler = (motionData: DeviceMotionMeasurement): EulerDa
      - Adjust the aircraft’s reference frame to account for measured pitch and roll.
 
    **Example with Accelerometer**:
-   ```javascript
+   
+```javascript
    reference() {
      if (!this.raw_euler_data || !motionData.accelerationIncludingGravity) return;
 
